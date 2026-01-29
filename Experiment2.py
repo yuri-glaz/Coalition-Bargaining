@@ -1,4 +1,4 @@
-"""Bolton et al. (2003) Replication"""
+"""Script used for Experiment2 games"""
 
 import os
 from litellm import completion 
@@ -1480,4 +1480,5 @@ def run_single_treatment_runs(treatment="public", use_csv: bool = True, num_runs
 
 if __name__ == "__main__":
       
+
     run_single_treatment_runs(SINGLE_TREATMENT, use_csv=True)
