@@ -1,4 +1,4 @@
-"""Bolton et al. (2003) Replication"""
+"""Bolton et al. (2003) Replication. PPT protocol"""
 
 import os
 from litellm import completion 
@@ -1243,4 +1243,5 @@ def run_single_treatment_30_runs(treatment="public", runs: int = 1, max_rounds: 
 
 
 if __name__ == "__main__":
+
     run_single_treatment_30_runs(SINGLE_TREATMENT, runs=1, max_rounds=21, use_csv=True)
